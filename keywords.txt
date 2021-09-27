@@ -1,0 +1,21 @@
+######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+CWB	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Begin	KEYWORD2
+AreaWeatherWeekForecast	KEYWORD2
+AreaWeather2DayForecast	KEYWORD2
+SetPrivateKey	KEYWORD2
+SetAPIID	KEYWORD2
+SetDataFormat	KEYWORD2
+SetLocationName	KEYWORD2
+SetElementName	KEYWORD2
+WEATHER_FORECAST_DATA KEYWORD2
+WEATHER_DATA KEYWORD2
+CWB_API_ID KEYWORD2

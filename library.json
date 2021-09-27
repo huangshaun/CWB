@@ -1,0 +1,23 @@
+{
+  "name": "CWB",
+  "description": "A Central Weather Bureau API Library for ESP32",
+  "keywords": "CWB, API",
+  "authors":
+  {
+    "name": "Shaun",
+    "email": "js8051@yahoo.com.tw"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/huangshaun/CWB.git"
+  },
+  "version": "0.1.0",
+  "url": "https://github.com/huangshaun/CWB",
+  "frameworks": "ESP32",
+  "platforms":
+  [
+    "espressif8266",
+    "espressif32"
+  ]
+}
