@@ -7,13 +7,11 @@
 
 #define CWB_HOST "opendata.cwb.gov.tw"
 #define CWB_API_PATH "/api/v1/rest/datastore/"
-#define JSON_BUFFER_MAX_SIZE 10240
+#define JSON_BUFFER_MAX_SIZE 15000
 
 class CWB
 {
 	private:
-		//const char *cwbHost = "opendata.cwb.gov.tw";
-		//const char *cwbAPIPath = "/api/v1/rest/datastore/";
 		String apiID = "";
 		String dataFormat = "";
 		String locationName = "";

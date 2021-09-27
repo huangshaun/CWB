@@ -72,7 +72,7 @@ typedef struct weather_forecast_data
 	String elementName;
 	String latitude;
 	String longitude;
-	WEATHER_DATA wdata[15];
+	WEATHER_DATA wdata[24]; //2Day and Week use same struct, array size is 15 for week, array size is 24 is for 2 day
 }WEATHER_FORECAST_DATA;
 
 #endif
