@@ -1,6 +1,6 @@
 # CWB Library For ESP32
 
-[![Build Status](https://travis-ci.org/jakalada/Arduino-ADXL345.svg?branch=master)](https://travis-ci.org/jakalada/Arduino-ADXL345)
+[![Build Status]
 
 CWB (Central Weather Bureau) API library for ESP32.
 
