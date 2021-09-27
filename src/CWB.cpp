@@ -23,7 +23,7 @@ bool CWB::AreaWeatherForecast(WEATHER_FORECAST_DATA *data)
   	{
   		data->result = false;
   		data->discription = "Response JSON data over buffer max size!";
-  		Serial.println("Response JSON data over buffer max size!");
+  		//Serial.println("Response JSON data over buffer max size!");
   		return false;
   	}
   	
@@ -31,8 +31,8 @@ bool CWB::AreaWeatherForecast(WEATHER_FORECAST_DATA *data)
     DeserializationError error = deserializeJson(doc, resultJSON, DeserializationOption::NestingLimit(12));
     if (error)
     {
-      Serial.print(F("deserializeJson() failed: "));
-      Serial.println(error.f_str());
+      //Serial.print(F("deserializeJson() failed: "));
+      //Serial.println(error.f_str());
       
       data->result = false;
       data->discription = "deserializeJson() failed";
@@ -104,7 +104,7 @@ bool CWB::HttpsPost(String &resultJSON)
 	if (httpCode == 200) 
 	{
 		resultJSON = http.getString();
-		Serial.println(resultJSON);
+		//Serial.println(resultJSON);
 		http.end();
 		return true;
 	}
