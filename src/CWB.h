@@ -23,8 +23,7 @@ class CWB
 		
 		void Begin(char *apiKey);
 		bool HttpsPost(String &resultJSON);
-		bool AreaWeatherWeekForecast(WEATHER_FORECAST_DATA *data);
-		bool AreaWeather2DayForecast(WEATHER_FORECAST_DATA *data);
+		bool AreaWeatherForecast(WEATHER_FORECAST_DATA *data);
 		void SetPrivateKey(String apiKey);
 		void SetAPIID(String id);
 		void SetDataFormat(String type = "JSON");

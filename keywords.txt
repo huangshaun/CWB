@@ -9,8 +9,7 @@ CWB	KEYWORD1
 #######################################
 
 Begin	KEYWORD2
-AreaWeatherWeekForecast	KEYWORD2
-AreaWeather2DayForecast	KEYWORD2
+AreaWeatherForecast KEYWORD2
 SetPrivateKey	KEYWORD2
 SetAPIID	KEYWORD2
 SetDataFormat	KEYWORD2

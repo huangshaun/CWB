@@ -9,7 +9,7 @@ void CWB::Begin(char *apiKey)
 	SetElementName();
 }
 
-bool CWB::AreaWeatherWeekForecast(WEATHER_FORECAST_DATA *data)
+bool CWB::AreaWeatherForecast(WEATHER_FORECAST_DATA *data)
 {
 	bool httpResult;
 	String resultJSON;
@@ -79,11 +79,6 @@ bool CWB::AreaWeatherWeekForecast(WEATHER_FORECAST_DATA *data)
   data->result = false;
   data->discription = "HTTP Get fail.";
   return false;
-}
-
-bool CWB::AreaWeather2DayForecast(WEATHER_FORECAST_DATA *data)
-{
-	
 }
 
 bool CWB::HttpsPost(String &resultJSON)
