@@ -40,7 +40,7 @@ void loop()
 
   WEATHER_FORECAST_DATA week;
   bool result;
-  result = cwb.AreaWeatherWeekForecast(&week);
+  result = cwb.AreaWeatherForecast(&week);
 
   if(result)
   {
@@ -51,7 +51,8 @@ void loop()
     Serial.println(week.latitude);
     Serial.println(week.longitude);
     
-    for(int i=0; i<15; i++)
+    for(int i=0; i<15; i++)  // 15 is for Week
+    //for(int i=0; i<24; i++) // 24 is for 2Day
     {
       Serial.println("------------------------");
       Serial.println(week.wdata[i].startTime);
